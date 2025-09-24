@@ -52,7 +52,7 @@ backend/
 
   - [Java 17+](https://adoptium.net/) (JDK)
   - [VS Code](https://code.visualstudio.com/) com **Extension Pack for Java**
-  - Node.js
+  - [Node.js 24.8.0] passo a passo para instalação da versão correta estará abaixo
 
 - Verifique a instalação do Java e do Node:
 
@@ -66,10 +66,6 @@ backend/
 ### 2. Rodando o projeto localmente
 
 - Rode o front para validar a funcionalidade do projeto, pois o comportamento do back end está sendo disponibilizado em uma api para consumo do front, sendo assim todos ops CRUDs que se encontram na pasta controller podem ser testados pela interface.
-
-#### Para o React
-
-- Em andamento
 
 #### Para o Java
 
@@ -85,4 +81,46 @@ backend/
 
 ```bash
  java -jar target/ManagingPeopleFocus-1.0.0-SNAPSHOT.jar
+```
+
+#### Para o React
+
+No seu terminal
+
+- Baixe o NVM
+
+```bash
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+
+Depois atualize o terminal
+
+Atualizar:
+
+```bash
+ source ~/.bashrc
+```
+
+ou para OhMyZsh
+
+```bash
+source ~/.zshrc
+```
+
+- Depois Instalar o Node:
+
+```bash
+  nvm install node
+```
+
+- Rode o comando para usar a versão correta, o projeto possui o arquivo .nvmrc com a versão usada no projeto:
+
+```bash
+  nvm use node
+```
+
+- Instale o yarn caso não tenha:
+
+```bash
+  npm install -g yarn
 ```
