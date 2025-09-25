@@ -67,7 +67,7 @@ backend/
 
 - Rode o front para validar a funcionalidade do projeto, pois o comportamento do back end está sendo disponibilizado em uma api para consumo do front, sendo assim todos ops CRUDs que se encontram na pasta controller podem ser testados pela interface.
 
-#### Para o Java
+#### Rodando o JAVA
 
 - Vá até a pasta /backend e rode no seu terminal os comando abaixo:
 
@@ -83,7 +83,11 @@ backend/
  java -jar target/ManagingPeopleFocus-1.0.0-SNAPSHOT.jar
 ```
 
-#### Para o React
+#### Rodando apenas a API + JAVA
+
+- Caso prefira rodar a API pelo postman, sugiro que leia o README.md da API que se encontra na pasta backend/src/main/java/app
+
+#### Rodando o REACT
 
 No seu terminal
 
@@ -124,3 +128,24 @@ source ~/.zshrc
 ```bash
   npm install -g yarn
 ```
+
+- Rode o comando para instalar as dependendias que estão no package.json
+
+```bash
+  yarn install
+```
+
+- Rode o comando para rodar o projeto localmente
+
+```bash
+  yarn dev
+```
+
+- Quando ver a tela de login, logue com a conta de administrador:
+
+```
+  Login: HaruPan
+  Senha: 123456
+```
+
+\*\* Depois disso fique a vontada para criar e excluir usuarios conforme o seu perfil, interaja com a plataforma.
