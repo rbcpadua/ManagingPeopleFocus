@@ -1,7 +1,7 @@
 # ManagingPeopleFocus
 
 Um sistema de gerenciamento de usuários, projetos e perfis desenvolvido em **Java** utilizando o padrão de arquitetura **MVC (Model–View–Controller)**.
-Na parte de persistencia, o banco escolhido foi o **Render'x'**, banco PostgreSQL gratuito na nuvem, para que você possa testar o projeto de forma facilitada sem precisar intslar nada localmente.
+Na parte de persistencia, o banco escolhido foi o **Render**, banco PostgreSQL gratuito na nuvem, para que você possa testar o projeto de forma facilitada sem precisar intslar nada localmente.
 No frontend, o design system utilizado é o **MUI (Material UI)**, garantindo uma interface moderna, a linguagem escolhida para o desenvolvimento é **React com Typescript**, essa escolha foi baseada em minha experiencia profissional.
 
 ---
@@ -18,24 +18,30 @@ No frontend, o design system utilizado é o **MUI (Material UI)**, garantindo um
 
 ## 📂 Estrutura do Projeto
 
+```bash
 ManagingPeopleFocus/
 backend/
 ├── .vscode/
 ├── src/
 │ └── main/
 │ └── java/
-│ ├── controller/
-│ ├── model/
-│ ├── repository/
-│ ├── utils/
-│ └── ApiServer.java
+| | └── app/
+| │ ├── controller/
+| │ ├── model/
+| │ ├── repository/
+| │ ├── utils/
+| │ └── ApiServer.java
 └── frontend/
-├── public/ # Arquivos públicos do React
-├── src/ # Código-fonte do frontend
-│ ├── components/ # Componentes reutilizáveis (MUI)
+├── public/
+├── src/
+| ├── assets/
+| ├── contexts/ # Parte de Autenticação da app
+| ├── hooks/ # Interação com a API fornecida pelo JAVA
+│ ├── components/ 
 │ ├── pages/ # Páginas principais
+| ├── routes/ 
 │ └── App.js # Ponto de entrada do frontend
-
+```
 ---
 
 ## ⚙️ Instalação
