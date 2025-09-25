@@ -1,0 +1,11 @@
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/repository/DatabaseConnection.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/model/Login.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/controller/ProfileController.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/repository/DemoConnection.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/controller/UserController.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/controller/ProjectController.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/utils/PasswordHasher.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/app/ApiServer.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/model/Profile.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/model/Project.java
+/home/rbcpadua/ManagingPeopleFocus/backend/src/main/java/model/User.java
