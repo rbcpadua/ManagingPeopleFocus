@@ -71,13 +71,13 @@ backend/
 
 ### 2. Rodando o projeto localmente
 
-- Rode o front para validar a funcionalidade do projeto, pois o comportamento do back end está sendo disponibilizado em uma api para consumo do front, sendo assim todos ops CRUDs que se encontram na pasta controller podem ser testados pela interface.
+- Rode o front para validar a funcionalidade do projeto, pois o comportamento do back end está sendo disponibilizado em uma API para consumo do front, sendo assim todos os CRUDs que se encontram na pasta controller podem ser testados pela interface.
 
 #### Rodando o JAVA
 
 - Vá até a pasta /backend e rode no seu terminal os comando abaixo:
 
-- Build o projeto com Maven:
+- Build o projeto com Maven (Gerenciador de dependencias do JAVA):
 
 ```bash
   mvn clean install
